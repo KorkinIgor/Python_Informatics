@@ -1,0 +1,12 @@
+a = int(input())
+my_list = []
+b = 0
+
+for i in range(a):
+    N = int(input())
+    my_list.append(N)
+
+for i in my_list:
+    if i == 0:
+        b += 1
+print(b)
